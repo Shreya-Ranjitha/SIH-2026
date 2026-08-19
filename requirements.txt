@@ -1,0 +1,27 @@
+# Discovery
+duckdb>=0.10.0
+pandas>=2.1.0
+pyarrow>=14.0.0
+datasets>=2.18.0        # for loading rumourscape/tenders from Hugging Face
+
+# Document processing
+pymupdf>=1.23.0         # fitz — primary PDF text extraction
+pdfplumber>=0.10.0       # fallback / table-aware extraction
+pytesseract>=0.3.10      # OCR for scanned PDFs (requires system tesseract-ocr)
+pdf2image>=1.17.0        # rasterize PDF pages for OCR (requires system poppler-utils)
+Pillow>=10.0.0
+
+# LLM extraction
+anthropic>=0.34.0
+
+# Storage
+sqlalchemy>=2.0.0
+
+# App
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
